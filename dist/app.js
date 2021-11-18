@@ -10,3 +10,4 @@ app.get('/', (req, res, next) => {
     console.log(add(5, 5));
     res.send('Hello');
 });
+app.listen(5000, () => console.log('Server running'));
